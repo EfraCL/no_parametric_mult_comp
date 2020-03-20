@@ -33,7 +33,7 @@ Con esta función podemos aplicar el test de Kruskal-Wallis o el de Dunn a cada 
 
 ## Ejemplo
 Copia y pega las siguientes líneas de código y observa cómo trabaja la función:
-
+~~~
 set.seed(666)
 prueba<-data.frame(variable1=runif(16),
                    variable2=rnorm(16),
@@ -47,7 +47,7 @@ np.comp.f(prueba,c("variable1","variable2"), # KRUSKAL-WALLIS TEST
 np.comp.f(prueba,c("variable1","variable2"), # DUNN TEST 
 	"factor2",
 	dunn=T,method="holm")
-
+~~~
 ## Referencias
 
 Ogle, D.H., P. Wheeler, and A. Dinno. 2019. FSA: Fisheries Stock Analysis. R package version 0.8.26, https://github.com/droglenc/FSA.
