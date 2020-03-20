@@ -7,7 +7,7 @@ Además, tendríamos que escribir una línea de código por cada variable	 depen
 
 Con esta función podemos aplicar el test de Kruskal-Wallis o el de Dunn a cada una de las diferentes variables dependientes respecto a un único factor (variable independiente), reduciendo de forma manifiesta tanto el tiempo como la cantidad de código a escribir.
 
-## Los argumentos de la función np.comp.1f() son:
+## Argumentos de la función:
 
 - **x**: es el dataframe donde se almacenan las variables objeto de estudio.
 
